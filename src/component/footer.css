@@ -1,0 +1,168 @@
+
+
+/* Footer Section Start From Here*/
+
+#footer {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: rgb(22, 7, 36);
+    color:white
+    /* border: 2px solid red; */
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid orange; */
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #8a8a8a;
+}
+
+.up-left {
+    width: 700px;
+    display: flex;
+}
+
+.image {
+    width: 200px;
+    position: relative;
+}
+
+.image > p{
+    font-size:2rem;
+    font-weight: bold;
+    
+}
+
+.content {
+    width: 400px;
+    margin-left: 3rem;
+ 
+}
+
+.description {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.footer-heading {
+    color: #404040;
+    font-size: 1.2rem;
+    margin-bottom: .6rem;
+    text-transform: uppercase;
+    color:white;
+}
+
+.up-right ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.up-right ul li {
+    height: 40px;
+    width: 40px;
+    padding: 6px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    margin: 0 0.8rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.up-right ul li a {
+    color: white;
+}
+
+
+.linkedIn {
+    background-color: #0077b5;
+}
+
+.instagram {
+    background: linear-gradient(15deg, #ffb13d, #dd277b, #4d5ed4);
+}
+
+.youtube {
+    background-color: #f50000;
+}
+
+.github {
+    background-color: #24292E;
+}
+
+.down-footer {
+    width: 100%;
+    color: #ffffff;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+
+}
+
+.footer-li {
+    display: flex;
+    list-style: none;
+}
+
+.footer-li li {
+    padding: 0 1rem;
+}
+
+.footer-li li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 821px) {
+    .up-left {
+        width: 100%;
+    }
+
+    .upper-footer,
+    .down-footer,
+    .up-left {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .image {
+        margin: 2rem 0;
+        /* border: 2px solid red; */
+        text-align: center;
+    }
+
+    .content {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer-heading {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .down-footer {
+        flex-direction: column-reverse;
+    }
+
+    .down-footer .leftPara {
+        margin-top: 1rem;
+    }
+
+    .footer-li {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        line-height: 25px;
+        margin: 1rem auto;
+    }
+}
